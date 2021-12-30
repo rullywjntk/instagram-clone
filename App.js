@@ -19,7 +19,7 @@ import rootReducer from "./redux/reducers";
 const store = createStore(rootReducer, applyMiddleware(thunk));
 
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_API_KEY,
+  apiKey: "REACT_APP_API_KEY",
   authDomain: "instagram-clone-d0570.firebaseapp.com",
   projectId: "instagram-clone-d0570",
   storageBucket: "instagram-clone-d0570.appspot.com",
